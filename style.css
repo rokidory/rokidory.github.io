@@ -1,8 +1,25 @@
 .jaro-font {
   font-family: "Jaro", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
+}
+
+.noto-sans-font {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.freeman-regular {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+html {
+    scroll-behavior: smooth;
+    min-width: 300px
 }
 
 body {
@@ -26,6 +43,7 @@ header {
 }
 
 header h1 {
+    text-decoration: none;
     color: white;
     font-family: "Jaro", sans-serif;
     font-weight: lighter;
@@ -55,17 +73,17 @@ nav > ul {
     margin-block: 0;
     height: 100%;
     list-style-type: none;
-}
-  
-li > a {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 18px;
+}
+  
+header a {
     color: white;
     text-decoration: none;
 }
   
-nav > ul > li > a:hover {
+header a:hover {
     color: grey;
 }
 
@@ -87,8 +105,149 @@ nav > ul > li > a:hover {
 }
 
 #intro-section {
-    border: solid 1px palevioletred;
-    padding: 0;
+    padding: 25px 30px;
+    background-image: url(https://i.ibb.co/KsTLpWn/Untitled2-20240530114749.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: right;
+    height: 200px;
+}
+
+#intro-section * {
     margin: 0;
-    
+    font-family: "Noto Sans", sans-serif;
+}
+
+#intro-section h1 {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 250%;
+    margin-bottom: 10px;
+}
+
+#intro-section h2 {
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+#intro-section span {
+    font-weight: 600;
+}
+
+#intro-section p {
+    font-weight: 300;
+}
+
+@media (max-width: 400px) {
+    #intro-section {
+        background-color: white;
+        background-image: none;
+    }
+}
+
+#about-section {
+    border: solid 1px palevioletred;
+    padding: 25px 30px;
+}
+
+#about-section {
+    font-family: "Noto Sans";
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+#about-section p {
+    max-width: 700px;
+    margin: auto;
+}
+
+#showcase-section {
+    border: solid 1px palevioletred;
+    padding: 25px 30px;
+    font-family: "Noto Sans";
+}
+
+#showcase-section * {
+    border: solid 1px palevioletred;
+}
+
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.display {
+    margin: 10px;
+}
+
+.display h3 {
+    text-align: center;
+}
+
+.dis-div * {
+    vertical-align: middle;
+}
+
+.dis-div button {
+    font-family: "Freeman";
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+ 
+button:hover {
+    transform: scale(0.8);
+}
+
+button:active {
+    transform: scale(0.7);
+}
+
+#see-more-div {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#see-more {
+    border: solid black 2px;
+    border-radius: 10px;
+    background: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 20px
+}
+
+footer * {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul * {
+    list-style-type: none;
 }

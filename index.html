@@ -8,6 +8,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
         <title>Rokidory Portfolio Page</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -15,10 +17,9 @@
     <body>
 
         <header>
-            <h1>Rokidory</h1>
+            <h1><a href="#intro-section">Rokidory</a></h1>
             <nav>
               <ul>
-                <li><a href="#about-section">ABOUT</a></li>
                 <li><a href="#showcase-section">WORKS</a></li>
                 <li><a href="#contacts-section">CONTACTS</a></li>
               </ul>
@@ -31,35 +32,43 @@
 
             <div id="intro-section">
                 <h1>Hi there!</h1>
-                <h2>I'm Rokidory</h2>
+                <h2>I'm <span>Rokidory</span></h2>
                 <p>Aspiring artist and web designer</p>
             </div>
 
             <div id="about-section">
-                <p>i like cheese, text text text</p>
+                <p>i like cheese, text text text, i like cheese, text text text, i like cheese, text text text, i like cheese, text text text</p>
             </div>
 
             <div id="showcase-section">
-                <h2>Here are some of my works:</h2>
-                <div id="art-displays">
+                <h2>Here are select few of my works:</h2>
+
+                <div id="flex-container">
+                <div id="art-displays" class="display">
                     <h3>Artworks:</h3>
-                    <div id="img-div">
+                    <div id="img-div" class="dis-div">
+                        <button><</button>
                          <img src="https://media.tenor.com/fGv2l8koSa0AAAAM/mess-with-the-flock-you-get-the-glock-crow.gif" />
-                    </div>
-                    <button>></button>
+                        <button>></button> 
+                    </div>  
                 </div>
-                <div id="code-displays">
+
+                <div id="code-displays" class="display">
                     <h3>Coding Projects:</h3>
-                    <div id="project-div">
-                         <img src="https://media.tenor.com/fGv2l8koSa0AAAAM/mess-with-the-flock-you-get-the-glock-crow.gif"/>
+                    <div id="project-div" class="dis-div">
+                        <button><</button>
+                         <img src="https://media.tenor.com/fGv2l8koSa0AAAAM/mess-with-the-flock-you-get-the-glock-crow.gif" />
+                        <button>></button> 
                     </div>
-                    <button>></button>
                 </div>
+                </div>
+
+                <div id="see-more-div"><button id="see-more">See more</button></div>
             </div>
 
         </main>
 
-        <footer>
+        <footer id="contacts-section">
             <h2>Contacts:</h2>
             <ul>
                 <li><a href="#intro-section">HOME</a></li>
