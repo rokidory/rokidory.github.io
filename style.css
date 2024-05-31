@@ -240,14 +240,16 @@ footer * {
     text-decoration: none;
     color: white;
     margin-bottom: 0;
+    font-family: "Noto Sans"
+}
+
+footer h2 {
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 footer ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-footer ul * {
-    list-style-type: none;
 }
