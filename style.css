@@ -1,4 +1,8 @@
-.jaro-font {
+* {
+    border: solid 1px palevioletred;
+}
+
+/**.jaro-font {
   font-family: "Jaro", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
