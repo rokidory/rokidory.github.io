@@ -1,1 +1,1 @@
-Hey guys, this is my prsonal portfolio webpage, which is still currently a WIP.
+WIP, personal webpage for selling art commissions. See more in the website itself: https:/rokidory.github.io
