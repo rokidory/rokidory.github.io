@@ -7,10 +7,148 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="style.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
 
     <body>
-        
+        <div id="nav-placeholder"></div>
+
+        <nav class="navbar navbar-expand-lg bg-primary-subtle fixed-top">
+            <div class="container-fluid justify-content-center">
+              <a class="navbar-brand " href="#">Rokidory</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#start">Start</a>
+                  <a class="nav-link" href="#showcase">Showcase</a>
+                  <a class="nav-link" href="#pricing">Pricing</a>
+                  <a class="nav-link" href="#tos">Terms of Service</a>
+                  <a class="nav-link" href="#order">Order Now</a>
+                  <a class="nav-link" href="#footer">Contacts</a>
+                  <button>Fan of hypersaturated colors?</button>
+                </div>
+              </div>
+            </div>
+        </nav>
+
+        <section id="start">
+            <div>
+                <h4>Hi there! I'm</h4>
+                <h1>Rokidory</h1>
+                <h3>A character artist</h3>
+            </div> 
+            <p>v</p>
+        </section>
+
+        <section id="showcase">
+            <h1>Here are some of my works:</h1>
+
+            <div id="carouselRide" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://placehold.co/600x400/orange/white" class="d-block w-100" alt="image 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://placehold.co/600x400/green/white" class="d-block w-100" alt="image 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://placehold.co/600x400/purple/white" class="d-block w-100" alt="image 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </section>
+
+        <section id="pricing">
+            <h1>Pricing details:</h1>
+            <div class="container-fluid" style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+                <div class="card col-5">
+                    <img src="https://placehold.co/100x120" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card col-5">
+                    <img src="https://placehold.co/100x120" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card col-5">
+                    <img src="https://placehold.co/100x120" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card col-5">
+                    <img src="https://placehold.co/100x120" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tos">
+            <div class="accordion accordion-flush" id="accordionFlush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h1>Terms of Service:</h1>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="show accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>By purchasing a commission from me (the artist), you agree to be purchasing my services only. If you have any concerns with the conditions listed below, they may be adjusted if discussed with me prior to paying for your commissioned piece. </p>
+                        <p>Please read the terms carefully:</p>
+            
+                        <h6>I, Rokidory (the artist):</h6>
+                        <ol>
+                            <li>I reserve the right to cancel and refund the order at any time for any reason.</li>
+                            <li>I retain all copyrights over the commissioned artwork.</li>
+                            <li>I will NOT claim the intellectual property (IP) of the commissioned artwork.</li>
+                            <li>I will NOT profit further from the commissioned artwork unless you (the customer) break any of the terms.</li>
+                            <li>I reserve the right to post the commissioned artwork online, in my portfolio, as well as in publications such as art books.</li>
+                        </ol>
+                        <h6>You (the customer/commissioner):</h6>
+                        <ol>
+                            <li>You may upload the commissioned artwork on any website and social channels, but you must credit.</li>
+                            <li>You may NOT make profits from the commissioned piece (reselling, redistributing, uploading to POD-services, making prints, etc.).</li>
+                            <li>You may NOT alter the commissioned artwork without my (the artist's) consent.</li>
+                            <li>You retain the rights to the intellectual property (IP).</li>
+                            <li>You may NOT use the commissioned artwork for commercial purposes. The license to the commissioned artwork may be purchased at any point - contact me for info.</li>
+                        </ol>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="order">
+            Order info:
+        </section>
+
+        <footer>
+            <h3>Contacts:</h3>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="script.js"></script>
     </body>
 </html>
