@@ -1,47 +1,96 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>Rokidory Portfolio Page</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Rokidory</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <body>
+
+    <div class="top-part ">
+      <span>Rokidory.exe</span>
+      <div class="top-buttons">
+        <span class="top-button top-button-min">-</span>
+        <span class="top-button top-button-max">o</span>
+        <span class="top-button top-button-close">x</span>
+      </div>
+    </div>
+
+    <div class="color-buttons">
+        <a id="light-mode" class="color-button">Light Mode</a>
+        <a id="dark-mode" class="color-button">Dark Mode</a>
+        <a id="hyper-mode" class="color-button">hypersaturated Mode</a>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+
+  <footer>
+    <img id="footer-roki-logo" src="https://i.ibb.co/d5Ctx0s/Untitled-removebg-preview.png" alt="roki-logo">
+    <div id="footer-text">⌕ Contacts</div>
+    <a class="socials"></a>
+
+  </footer>
+
+</html>
+
+
+
+<!---
+logo     <img src="https://i.ibb.co/JQLt5T1/roki-logo.png" alt="roki-logo">
+light <img src="https://i.ibb.co/M7WhPv9/Screenshot-2024-08-07-130530.png"
+dark <img src="https://i.ibb.co/YTbN05R/Screenshot-2024-08-07-130603.png"
+hyper <img src="https://i.ibb.co/6N0fvYd/Screenshot-2024-08-07-130745.png"
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <title>Rokidory Portfolio Page</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="style.css">
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
 
     <body>
-        <div id="nav-placeholder"></div>
-
-        <nav class="navbar navbar-expand-lg bg-primary-subtle fixed-top">
-            <div class="container-fluid justify-content-center">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid justify-content-center sub-nav-div">
               <a class="navbar-brand " href="#">Rokidory</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" href="#start">Start</a>
-                  <a class="nav-link" href="#showcase">Showcase</a>
-                  <a class="nav-link" href="#pricing">Pricing</a>
-                  <a class="nav-link" href="#tos">Terms of Service</a>
-                  <a class="nav-link" href="#order">Order Now</a>
-                  <a class="nav-link" href="#footer">Contacts</a>
-                  <button>Fan of hypersaturated colors?</button>
+              <div class=" collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav" style="width: 100%; justify-content: space-around;">
+                  <a class="nav-link nav-item" href="#start">Start</a>
+                  <a class="nav-link nav-item" href="#showcase">Showcase</a>
+                  <a class="nav-link nav-item" href="#pricing">Pricing</a>
+                  <a class="nav-link nav-item" href="#tos">Terms of Service</a>
+                  <a class="nav-link nav-item" href="#order">Order Now</a>
+                  <a class="nav-link nav-item" href="#footer">Contacts</a>
+                  <button id="hyper-toggle  nav-item">Fan of hypersaturated colors?</button>
                 </div>
               </div>
             </div>
         </nav>
 
         <section id="start">
-            <div>
+            <div id="start-text-box">
                 <h4>Hi there! I'm</h4>
                 <h1>Rokidory</h1>
                 <h3>A character artist</h3>
             </div> 
             <p>v</p>
         </section>
+
+        <img src="https://cdn.webhotpix.com/7JDHD.png"/>
 
         <section id="showcase">
             <h1>Here are some of my works:</h1>
@@ -152,3 +201,5 @@
         <script src="script.js"></script>
     </body>
 </html>
+
+  -->
