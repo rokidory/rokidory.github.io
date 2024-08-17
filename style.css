@@ -83,6 +83,42 @@ body {
     cursor: pointer;
 }
 
+.content {
+    margin: 4%
+}
+
+.page-link {
+    display: block;
+    font-size: 7vh;
+    margin-bottom: 2%;
+}
+
+.page-link:hover {
+    color:var(--accent);
+}
+
+.page-link:active {
+    color:purple;
+    text-decoration: underline;
+}
+
+.page-link:visited {
+    color:purple;
+}
+
+.full-width {
+    width: 102%;
+}
+
+#main-page-overlap {
+    margin-top: -25vh;
+}
+
+#main-page-pic {
+    height: 55vh;
+    float: right;
+}
+
 footer {
     background-color: var(--light);
     border-top: solid 1px var(--text1);
