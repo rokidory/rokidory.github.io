@@ -117,6 +117,8 @@ body {
     font-size: 7vh;
     margin: 1vh;
     z-index: 999;
+    text-decoration: none;
+    color: var(--text1);
     -webkit-text-stroke: 0.4px var(--accent);
 }
 
