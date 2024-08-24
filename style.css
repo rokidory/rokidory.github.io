@@ -90,10 +90,34 @@ body {
     height: 91%;
 }
 
+.content p {
+    position: absolute;
+    left: 6vw;
+    z-index: 6;
+    width: 86vw;
+    -webkit-text-stroke: 0.3px black;
+}
+
+.placeholder {
+    display: block;
+}
+
+.main-p {
+    height: 10vh;
+}
+
+.page-link-container {
+    position:absolute;
+    z-index: 9;
+    left:6vw;
+}
+
 .page-link {
     display: block;
     font-size: 7vh;
     margin: 1vh;
+    z-index: 999;
+    -webkit-text-stroke: 0.4px var(--accent);
 }
 
 .page-link:hover {
@@ -109,18 +133,26 @@ body {
     color:purple;
 }
 
-.highlight {
-    color: var(--accent)
-}
-
 .full-width {
     width: 102%;
-    margin-top: -10vh;
+    position:absolute;
+    bottom: 18vh;
+    right: 10vw;
+    z-index: 0;
 }
 
 #main-page-pic {
     height: 50vh;
     float: right;
+    position: relative;
+}
+
+@media (min-width: 500px) {
+    #main-page-pic {
+        width: 60vw;
+        height: auto;
+        max-width: 340px
+    }
 }
 
 footer {
